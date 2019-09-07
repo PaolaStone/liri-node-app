@@ -3,14 +3,14 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ## How it works?
 LIRI can take in one of the following **commands** and the [user entry]:
--	**concert-this**  __U2__
--	**spotify-this-song** __complicated__
--	**movie-this** __avatar__
--	**do-what-it-says** __user entry is entered from a file__
+-	**concert-this**  [U2]
+-	**spotify-this-song** [complicated]
+-	**movie-this** [avatar]
+-	**do-what-it-says** [user entry is entered from a file]
 
-## Information that would be displayed
+## Commands execution samples
 ### node liri.js **concert-this U2** __U2__
-![ concert-this U2](images/cconcertThis.png)
+![concert-this U2](images/concertThis.png)
 
 ### node liri.js **spotify-this-song** __complicated__
 
