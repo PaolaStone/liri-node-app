@@ -111,9 +111,30 @@ function movieThis(){
 
 
 function doWhatItSays(){
+    fs.readFile("random.txt", "utf8", function(err, data) {
+		if (err) {
+			logOutput.error(err);
+		} else {
+            var randomArray = data.split(",");
+            console.log(randomArray)
+            spotify.search({type: "track", query: randomArray }, function(err, data) {
+                if (err) {
+                    console.log(err);
+                }
+    
+                var songResults = data.tracks.items;
+                    console.log("  ")
+                    console.log("Artist(s): " + songResults[0].artists[0].name);
+                    console.log("Song Name: " + songResults[0].name);
+                    console.log("Preview Link: " + songResults[0].preview_url);
+                    console.log("Album: " + songResults[0].album.name);
+                    console.log("--------------------")
+            });
 
+        }
+    })
 }
-
+// doWhatItSays()
 switch (command){
     case "concert-this": concertThis();
         break;
