@@ -11,22 +11,22 @@ LIRI can take in one of the following **commands** and the [user entry]:
 
 ## Commands execution samples
 
-#### node liri.js concert-this u2
+#### 1. node liri.js concert-this u2
 ![concert-this](images/concertThis.PNG)
 
-#### node liri.js spotify-this-song complicated
+#### 2. node liri.js spotify-this-song complicated
 ![spotifyThis](images/spotifyThis.PNG)
 
-#### node liri.js spotify-this-song (If there is no input from the user, it displays a default song information)
+#### 3. node liri.js spotify-this-song (If there is no input from the user, it displays a default song information)
 ![spotifyThisDefault](images/spotifyThisDefault.PNG)
 
-#### node liri.js movie-this avatar
+#### 4. node liri.js movie-this avatar
 ![cmovieThis](images/movieThis.PNG)
 
-#### node liri.js movie-this (If there is no input from the user, it displays a default movie information)
+#### 5. node liri.js movie-this (If there is no input from the user, it displays a default movie information)
 ![movieThisDefault](images/movieThisDefault.PNG)
 
-#### node liri.js do-what-it-says
+#### 6. node liri.js do-what-it-says
 ![cdoWhatItSays](images/doWhatItSays.PNG)
 
 
