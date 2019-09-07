@@ -8,24 +8,26 @@ LIRI can take in one of the following **commands** and the [user entry]:
 -	**movie-this** [avatar]
 -	**do-what-it-says** [user entry is entered from a file]
 
+
 ## Commands execution samples
-### node liri.js **concert-this U2**
-![concert-this U2](images/concertThis.PNG)
 
-### node liri.js **spotify-this-song** __complicated__
-![concert-this U2](images/spotifyThis.PNG)
+#### node liri.js concert-this u2
+![concert-this](images/concertThis.PNG)
 
-### node liri.js **spotify-this-song** (If there is no input from the user, it displays a default song information)
-![concert-this U2](images/spotifyThisDefault.PNG)
+#### node liri.js spotify-this-song complicated
+![spotifyThis](images/spotifyThis.PNG)
 
-### node liri.js **movie-this** __avatar__
-![concert-this U2](images/movieThis.PNG)
+#### node liri.js spotify-this-song (If there is no input from the user, it displays a default song information)
+![spotifyThisDefault](images/spotifyThisDefault.PNG)
 
-### node liri.js **movie-this** (If there is no input from the user, it displays a default movie information)
-![concert-this U2](images/movieThisDefault.PNG)
+#### node liri.js movie-this avatar
+![cmovieThis](images/movieThis.PNG)
 
-### node liri.js **do-what-it-says**
-![concert-this U2](images/doWhatItSays.PNG)
+#### node liri.js movie-this (If there is no input from the user, it displays a default movie information)
+![movieThisDefault](images/movieThisDefault.PNG)
+
+#### node liri.js do-what-it-says
+![cdoWhatItSays](images/doWhatItSays.PNG)
 
 
 ## Technology
