@@ -15,7 +15,7 @@ function concertThis(){
     axios.get("https://rest.bandsintown.com/artists/"+ userEntry + "/events?app_id=codingbootcamp").then(
         
         function(response){
-            // console.log(response.data)
+            
             for (var i = 0; i < response.data.length; i++) {
                 console.log("   ")
                 console.log("Name of the venue: "+ response.data[i].venue.name);
@@ -61,7 +61,7 @@ function spotifyThisSong(){
             }
             
             var songResults = data.tracks.items;
-            // console.log(songResults)
+            
             console.log("   ")
             console.log("Artist(s): " + songResults[0].artists[0].name);
             console.log("Song Name: " + songResults[0].name);
@@ -134,7 +134,7 @@ function doWhatItSays(){
         }
     })
 }
-// doWhatItSays()
+
 switch (command){
     case "concert-this": concertThis();
         break;
@@ -145,5 +145,5 @@ switch (command){
     case "do-what-it-says": doWhatItSays();
         break;
     default:
-        console.log("Valid options: / concert-this / spotify-this-song / movie-this / do-what-it-says")
+        console.log("Valid options are: / concert-this / spotify-this-song / movie-this / do-what-it-says")
 }
